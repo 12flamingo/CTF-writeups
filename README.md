@@ -1,5 +1,5 @@
 # ctf writeups
-I thought it'd be nice to jot down some thought processes and consolidate my learning journey. 
+I thought it'd be nice to jot down some thought processes and consolidate my learning journey. For context, I'm still a CTF newbie! Nevertheless, I'm already hooked so here's to (hopefully) many more CTF experiences. 
 
 Also, this repo was created after my 7th CTF so my memory of the earlier ones (when I do get around to writing some of them) might be a little foggy.  Oh well. Better late than never :-)
 
