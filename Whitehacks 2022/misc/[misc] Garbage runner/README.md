@@ -1,5 +1,5 @@
 # [misc] Garbage runner (767 pt/40 solves)
-Author: xbowery
+Author: xbowery <br>
 Difficulty: Easy
 
 ## Challenge description:
