@@ -8,7 +8,7 @@ Team: Milk <br> 16648 points | #5/130
 Returning from WH2021, I was glad to find I had a less foggy idea of what I was doing It could be in part attributed to the fact that the CTF’s challenge descriptions were packed with hints (in very nice wordplay), making a couple of them pretty accessible in terms of difficulty :) That worked out pretty well for me as I ended up spamming the ones tagged “easy/medium” for the most part although I do wish I realised earlier and read the descriptions more carefully! (instead of skipping to the files) It certainly would have saved some time this round. Lesson learnt!
 
 ## flags 
-* [misc] Garbage Runner [767 pt/40 solves] (../misc/[misc] Garbage runner)
+* [misc] Garbage Runner [767 pt/40 solves] 
 * [misc] Escape Plane [606 pt/48 solves]
 * [misc] Never Gonna Stitch You Up [233 pt/65 solves]  
 * [crypto] The Indecipherable Cipher [441 pt/55 solves]
