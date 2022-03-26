@@ -1,13 +1,2 @@
 # ctf writeups
-I thought it'd be nice to jot down some thought processes and consolidate my learning journey. For context, I'm still a CTF newbie! Nevertheless, I'm already hooked so here's to (hopefully) many more CTF experiences. 
-
-Also, this repo was created after my 7th CTF so my memory of the earlier ones (when I do get around to writing some of them) might be a little foggy.  Oh well. Better late than never :-)
-
-## overview 
-- Whitehacks 2021
-- Cyberthon 2021
-- DSTA CDDC (Cyber Defenders Discovery Camp) 2021 (Junior)
-- CSIT TISC (The InfoSecurity Challenge) 2021
-- SECCON CTF 2021
-- HTXIC (Investigators' Challenge) 2021
-- Sieberrsec 3.0
+In my first year of CTFs (2021), I wanted to do CTF writeups but found myself making excuses from having almost no knowledge to share to reasons like not having enough time (both of which still trouble me). Nevertheless, I think it’s a worthwhile endeavour (plus it's fun!) and perhaps one day I will have more to say, and I'll be better at saying it. So this year, I will Make Time for CTF writeups :) 
