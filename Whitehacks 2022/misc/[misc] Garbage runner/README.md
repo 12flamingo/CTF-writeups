@@ -11,8 +11,8 @@ The mischievous aliens have dumped our lovely poster into the trash can, maybe y
 ---
 ## Solution
 ### Recon
-Garbage => Bin = Binwalk
-Runner => …run binwalk? 
+Garbage => Bin = Binwalk <br>
+Runner => …run binwalk? <br>
 In the description, “walk through it” also hints at binwalk :)
 
 ### Solving 
