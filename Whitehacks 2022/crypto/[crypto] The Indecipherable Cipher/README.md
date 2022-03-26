@@ -1,4 +1,4 @@
-# [crypto] The Indecipherable Cipher
+# [crypto] The Indecipherable Cipher (441 pt/55 solves)
 Author: WickedEye (Ying Keat)<br>
 Difficulty: Easy
 
