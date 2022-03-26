@@ -1,4 +1,4 @@
-# [osint] The War of The Worlds 1 - Shell Company
+# [osint] The War of The Worlds 1 - Shell Company (957 pt/20 solves)
 Author: Hartanto<br>
 Difficulty: Easy
 
