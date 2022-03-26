@@ -3,7 +3,7 @@ from base64 import b64encode, b64decode
 from Crypto.Cipher import AES
 from Crypto.Util.Padding import pad
 
-printable = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+digits = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 fav_event = "wH1t3H@cK5_"
 pt = 'aaaaaaaaaaaaaaaa' #my input
 ct = b64decode("l3sGI8MveiL31mhmINTJtIPYKZkgFIGNGWFOGyr6NCg=".encode("utf-8")) #my input, encrypted
@@ -11,11 +11,11 @@ ct = b64decode("l3sGI8MveiL31mhmINTJtIPYKZkgFIGNGWFOGyr6NCg=".encode("utf-8")) #
 ##STEP ONE: List all possible keys 
 def possible_keys():
     poss_keys = []
-    for a in printable:
-        for b in printable:
-            for c in printable:
-                for d in printable:
-                    for e in printable:
+    for a in digits:
+        for b in digits:
+            for c in digits:
+                for d in digits:
+                    for e in digits:
                         key = fav_event + str(a) + str(b) + str(c) + str(d) + str(e)
                         poss_keys.append(key)
 
