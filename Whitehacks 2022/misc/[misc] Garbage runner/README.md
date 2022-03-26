@@ -1,4 +1,4 @@
-# [misc] Garbage runner
+# [misc] Garbage runner (767 pt/40 solves)
 Author: xbowery
 Difficulty: Easy
 
