@@ -123,4 +123,6 @@ Then we ignore the rubbish at the back from the padding and collect our flag :)
 
 ```b'WH2022{M1dDl3_R0@d_15_tH3_b3sT_pLAc3_2_m33T}\x04\x04\x04\x04'```
 
+### References
+
 [1] https://en.wikipedia.org/wiki/Meet-in-the-middle_attack 
