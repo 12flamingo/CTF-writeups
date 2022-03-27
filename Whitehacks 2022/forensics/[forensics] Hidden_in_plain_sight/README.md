@@ -53,7 +53,7 @@ yields
 ```
 
 We should now recognise the file signature of a GZIP archive file. ```1f8b08```
-Unzipping with https://codebeautify.org/gzip-decompress-online, we obatin the flag.
+Unzipping with https://codebeautify.org/gzip-decompress-online, we obtain the flag.
 
 ```WH2022{W3lc0me_t0_SMU_B3st_Un1}```
 
