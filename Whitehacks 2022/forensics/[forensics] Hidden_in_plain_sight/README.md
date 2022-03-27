@@ -42,7 +42,7 @@ Although my eyes were drawn to ``` QH4sICMzDCWIAA2ZsYWcudHh0AAv3MDIwMqoON85JNshN
 This seemingly dead-end inspired me to veer completely off-track and try a multitude of irrelevant strategies, from extracting the other datastreams into files that obviously did not lead anywhere, to attempting to locate the original source image and comparing it to the modified file. Worse still, the more time and hope I invested into this challenge, the more I fell into the sunk cost fallacy and wasted a precious hour or perhaps more. 
 
 ### Post-CTF continuation
-I was later redirected back to the initial track of action (with zsteg and base64), after being told you had to remove the leading 'Q'. In hindsight, I realise one might have recognise the telling "H4sI" that hints at a gzip. 
+I was later redirected back to the initial track of action (with zsteg and base64), after being told you had to remove the leading 'Q'. In hindsight, I realise one might have recognised the telling "H4sI" that hints at a gzip. 
 
 In any case, base64 decoding with 
 ``` echo H4sICMzDCWIAA2ZsYWcudHh0AAv3MDIwMqoON85JNshNjS8xiA/2DY13Mi4uiQ/NM6wFAMovwkIfAAAA | base64 --decode```
