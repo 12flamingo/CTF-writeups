@@ -1,5 +1,6 @@
 # Space Heroes ’22
-Team: Shrimp <br> 2356 points | #68/778
+Team: Shrimp (Solo)
+<br> 2356 points | #68/778
 
 ## organizer details
 > Space Heroes CTF is an online jeopardy style Capture the Flag competition hosted by the FITSEC Team From Florida Tech. Challenges at all levels of difficulty (beginner to expert) for pwn, RE, crypto, web, and forensics. <br>
