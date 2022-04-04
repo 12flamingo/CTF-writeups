@@ -37,7 +37,7 @@ _Hint: You may wish to consult the great Sage of Crypto for help on this challen
 For a deeper dive and better understanding, I found this pretty informative: https://cryptobook.nakov.com/asymmetric-key-ciphers/elliptic-curve-cryptography-ecc [3]
 
 ### Solving
-Now, given that we appear to be missing the private key `d`, we need to solve the Discrete Logarithm Problem with `d` such that (eq 1) is satisfied. The challenge also tells us this key is unlikely to be "large" --> implying it must be small! (and thankfully, **Sage's discrete_log** function did work in our favour for this case). 
+Now, given that we appear to be missing the private key `d`, we need to solve the Elliptic Curve Discrete Logarithm Problem (ECDLP) with `d` such that (eq 1) is satisfied. The challenge also tells us this key is unlikely to be "large" --> implying it must be small! (and thankfully, **Sage's discrete_log** function did work in our favour for this case). 
 
 You can download SageMath, or use the online SageMathCell, as I have. <br><br>
 _**sagemath**_
@@ -73,9 +73,16 @@ y3:11238981380437369357
 
 :triangular_flag_on_post: Hence, our flag is **shctf{8042846929834025144_11238981380437369357}**
 
+## Additional notes/thoughts
+While reading up on ECC, I also stumbled upon the Pohlig-Hellman attack [4] which
+>reduces discrete logarithm calculations to prime subgroups of the order of P and uses Chinese Remainder Theorem to solve system of congruences for discrete logarithm of the whole order. 
+
+This would have been necessary if our numbers had been bigger (and factorisable into small primes)... 
+
 ### References
 
 [1] https://en.wikipedia.org/wiki/Elliptic-curve_cryptography <br>
 [2] https://sagecell.sagemath.org/ <br>
 [3] https://cryptobook.nakov.com/asymmetric-key-ciphers/elliptic-curve-cryptography-ecc <br>
+[4] https://hgarrereyn.gitbooks.io/th3g3ntl3man-ctf-writeups/content/2017/picoCTF_2017/problems/cryptography/ECC2/ECC2.html
 
