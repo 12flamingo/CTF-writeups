@@ -23,15 +23,19 @@ That looks an awful lot like the one this challenge gave us: (Disclaimer, I neve
 ### Solving
 After going around in a few more circles, I was still no closer to deciphering the mysterious annotations on the signal.png.  Alright, so what DID I do? 
 ![woah.png](https://user-images.githubusercontent.com/40383476/161583861-ae0d3f47-5611-46c7-b430-6224d070b49f.png)
-[RED] Stage 1: My eyes were drawn to the _ _ _ _ _ {XXXXXXX} format that was almost cetainly our flag. Hence, I could identify the first 5 characters as "shctf" and map the repeated characters inside the flag from the wrapper - I use uppercase letters to annotate the "confirmed" letters and lowercase for the ones I guessed in the following stages:
-[GREEN] Stage 2: I decided that _ TS and TH _ was fairly likely to be 'its' and 'the' - how many other english words followed that structure? Not many. There is also an 'i' symbol in the last word. 
-[BLUE] Stage 3: Now, there was nothing else I could decipher from that line alone. Skimming the passage, we notice many isolated spiral characters. The only one-letter words in English are a and I (see circled chars) - and we've already used 'i' in the above stage. Hence, I substituted 'a' into the spiral characters from the flag. 
-[ORANGE] Stage 4: Here's where the context comes in useful. As I kept the phrase "extraterrestrial intelligence" at the back of my mind, I predicted that the last word would be "martians"! 
-Stage 5: So... what was the three-lettered, palindromic first word I had yet to uncover? I was stumped for a good moment before I remembered the title: wow
+**[RED] Stage 1:** My eyes were drawn to the _ _ _ _ _ {XXXXXXX} format that was almost cetainly our flag. Hence, I could identify the first 5 characters as "shctf" and map the repeated characters inside the flag from the wrapper - I use uppercase letters to annotate the "confirmed" letters and lowercase for the ones I guessed in the following stages:
+
+**[GREEN] Stage 2: **I decided that _ TS and TH _ was fairly likely to be 'its' and 'the' - how many other english words followed that structure? Not many. There is also an 'i' symbol in the last word. 
+
+**[BLUE] Stage 3:** Now, there was nothing else I could decipher from that line alone. Skimming the passage, we notice many isolated spiral characters. The only one-letter words in English are a and I (see circled chars) - and we've already used 'i' in the above stage. Hence, I substituted 'a' into the spiral characters from the flag. 
+
+**[ORANGE] Stage 4:** Here's where the context comes in useful. As I kept the phrase "extraterrestrial intelligence" at the back of my mind, I predicted that the last word would be "martians"! 
+
+**Stage 5:** So... what was the three-lettered, palindromic first word I had yet to uncover? I was stumped for a good moment before I remembered the title: wow
 
 Piecing together my intelligent guesses, it looked like a passable flag:
 
-shctf{wow_its_the_martians}
+🚩 `shctf{wow_its_the_martians}`
 
 ### Additional notes/thoughts
 I'm definitely not very proud of how I scraped through this challenge with a very guess-esque technique. But in hindsight, I found it a little funny. Desperation can induce creativity, I suppose. I await the intended solution :')
