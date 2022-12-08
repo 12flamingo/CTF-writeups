@@ -36,7 +36,58 @@ I first set the modifiable resistor as 0Ω for both inputs with significant time
 
 **Aim: Input a `_MODIFIABLE_RESISTOR` value that will give output of `Voltage across points` = 0V**
 
+We will work with these set of values for the solution:
+```
+[==!==] Bridged to timeline: 1a9f4
+[==!==] Warning, controller corrupted, quantum core unstable. Match voltage immediately.
+[==+==] System state:  _COEFFICIENT: 187.0198 (R/A), _PRECISION_RESISTOR: 523.55014 (R), _VOLTAGE: 47.2799 (V)
+Please Enter _MODIFIABLE_RESISTOR resistance:
+```
+Let me define points Vc and Vd:
 
+![image](https://user-images.githubusercontent.com/40383476/206493099-6b324704-8d0b-4c00-9777-1bb406d9f699.png)
 
+Note that `_MODIFIABLE_RESISTOR` and `_CURRENT_RESISTOR` are parallel to `_UNKNOWN_RESISTOR` and `_PRECISION_RESISTOR`. A strategic first input would be 0Ω, because it allows us to derive potential at Vb. 
+
+```
+Please Enter _MODIFIABLE_RESISTOR resistance: 0
+[==+==] Voltage across points: 19.3457 (V)
+```
+
+When `_MODIFIABLE_RESISTOR` = 0 Ω, <br>
+Vd = Va = 47.2799 V <br>
+Va - Vb = Vd - Vb = 19.3457 V <br>
+=> Vb = 27.9342 V <br>
+
+Let coefficient be C. <br>
+V = RI, so Va - Vc = R<sub>_CURRENT_RESISTOR</sub> * I = C * I<sup>2</sup>  <br>
+
+Also, Va - Vb = 0 => Va - Vc = Vb - Vc <br>
+  (187.0198) * I<sup>2</sup> =  (27.9342 - 0) V  <br>
+  I = 0.38648 A  <br>
+  `_MODIFIABLE_RESISTOR` and `_CURRENT_RESISTOR` are connected in series, so same current I = 0.38648 A must flow through them.  <br>
+  
+Now, we want Va - Vb = 0, so Vd - Vb = Vd - Va = 19.3457 V   <br>
+Then, potential difference across `_MODIFIABLE_RESISTOR` = Vd - Va = 19.3457 V  <br>
+  19.3457 V = R<sub>_MODIFIABLE_RESISTOR</sub> * I =  R<sub>_MODIFIABLE_RESISTOR</sub> * 0.38648 <br>
+  R<sub>_MODIFIABLE_RESISTOR</sub> = 50.056 Ω  <br>
+  
+```
+[=!!!=] Warning quantum lock destablizing!
+Please Enter _MODIFIABLE_REISTOR resistance: 50.056
+[==+==] Voltage across points: 7.752375922365218e-05 (V)
+[==!==] ...
+[==0==] Quantum lock stablised. Beginning cleanup routines.
+[=<0>=] STF22{L0ng_Qu8ntum_3hift}[=====] Shutting down..
+```
+
+🚩🚩🚩 ```STF22{L0ng_Qu8ntum_3hift}```
+  
 ### Other thoughts 
-I did not actually have the clarity of mind to come to the above solution right away, and actually spent some time calculating unecessary variables such as `_UNKNOWN_RESISTOR`. For the sake of doe
+Interestingly, we did not have to find `_UNKNOWN_RESISTOR` or even make use of the value given for `_PRECISION_RESISTOR`. Admittedly, I did not actually have the clarity of mind to come to the above solution right away, and spent some time calculating unecessary variables such as `_UNKNOWN_RESISTOR`. Using the potential divider rule, you would be able to find this: `_UNKNOWN_RESISTOR` = 523.55014 / 27.9342 * 19.3457 = 362.582
+Having been told the set up is a "Wheatstone Bridge", we could make use of an online calculator to help find more values. <br>
+<img width="412" alt="image" src="https://user-images.githubusercontent.com/40383476/206492675-cea81cd9-bb6a-4fa0-9c10-0a46905908a2.png">  
+However, it results in more tedious calculations.
+  
+  
+  
