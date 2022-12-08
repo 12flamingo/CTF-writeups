@@ -4,7 +4,7 @@
 An adversary was observed to be exfiltrating a file from a music entertainment company that contains a to-be-released embargoed poster of a new song for one of their bands. Find the leaked file, which will contain the flag.
 
 ### Files:
-* [STF22.pcapng]
+* [STF22.pcapng](STF22_new.pcapng)
 ---
 ## Solution (in CTF)
 
@@ -60,7 +60,7 @@ Let's break that down:
   * xxd (-r: reverse hexdump to ASCII, -p: plain hexdump) --> ASCII, but base64 encoded, piped to...
   * base64 --decode --> stored in new png file
   
-Thus, we obtain the [poster](), and running exiftool will also get us the same flag:
+Thus, we obtain the [poster](blackpink.png), and running exiftool will also get us the same flag:
   
 <img width="543" alt="image" src="https://user-images.githubusercontent.com/40383476/206345014-b40eb107-6a65-439e-8317-08e3bf374fd6.png">
 
