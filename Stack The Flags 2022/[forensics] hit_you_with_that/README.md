@@ -17,7 +17,7 @@ If the poster had been sent via HTTP/FTP, we would have found it here.
 (Occasionally, it saves you time in a CTF but not today, it seems.)
 
 **#1. Sort by protocol** </br>
-A quick glance through informs us that the pcap comprises many familiar protocols* - all of which could potentially hold our flag. Personally I believe this is the main point we’re grappling with for the challenge - to systemically sort and eliminate irrelevant protocols. I speculated (based on past experience) that the flag/components of the flag would be isolated within each protocol. 
+A quick glance through informs us that the pcap comprises many familiar protocols - all of which could potentially hold our flag. Personally I believe this is the main point we’re grappling with for the challenge - to systemically sort and eliminate irrelevant protocols. I speculated (based on past experience) that the flag/components of the flag would be isolated within each protocol. 
 
 **#2. Zooming in to specific protocols** </br>
 We are told to look for a “leaked file” so we will want to focus on protocols that can do such data transfer: 
